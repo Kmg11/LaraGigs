@@ -14,6 +14,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Prefix with /api
+
+Route::get('/posts', function () {
+    return response()->json([
+        'posts' => [
+            [
+                'title' => 'My First Post',
+                'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.',
+                'published' => true,
+            ]
+        ]
+    ]);
+});
+
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });

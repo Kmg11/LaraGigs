@@ -1,0 +1,19 @@
+Commands
+	- php artisan serve [start server]
+	- php artisan make:migration {table_name} [create migration file]
+	- php artisan migrate [run migration]
+	- php artisan db:seed [run seed]
+	- php artisan migrate:refresh [refresh migration]
+	- php artisan migrate:refresh --seed [refresh migration and seed]
+	- php artisan make:model {model_name} [create model]
+	- php artisan make:factory {model_name}Factory [create factory]
+	- php artisan make:controller {controller_name} [create controller]
+	- php artisan vendor:publish [publish all]
+	- php artisan vendor:publish --tag=laravel-pagination [publish pagination]
+	- php artisan storage:link [create symbolic link]
+	- php artisan route:cache [cache route]
+	- php artisan tinker [run tinker]
+
+
+- Only creator of the gig can delete or edit gig
+- Only logged in user can create gig
