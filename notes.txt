@@ -13,7 +13,3 @@ Commands
 	- php artisan storage:link [create symbolic link]
 	- php artisan route:cache [cache route]
 	- php artisan tinker [run tinker]
-
-
-- Only creator of the gig can delete or edit gig
-- Only logged in user can create gig
